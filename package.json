@@ -1,0 +1,16 @@
+{
+  "name": "mongo-standalone",
+  "version": "0.0.1",
+  "description": "mongod initializer from node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "James Nimlos",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "tree-kill": "^1.1.0"
+  }
+}
