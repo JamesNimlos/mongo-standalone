@@ -1,6 +1,6 @@
 {
   "name": "mongo-standalone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mongod initializer from node.js",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
     "fs-extra": "^0.30.0",
     "tree-kill": "^1.1.0"
   },
-  "repository": { 
-    "type" : "git", 
-    "url" : "https://github.com/JamesNimlos/mongo-standalone.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesNimlos/mongo-standalone.git"
   }
 }
