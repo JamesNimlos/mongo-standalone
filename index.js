@@ -17,10 +17,14 @@ module.exports = function (options, callback) {
 	options = options || {};
 	const DB_PATH = options.dbpath || path.resolve('./data/db');
 	const logger = options.logger || () => {};
+	const error = logger.error || logger;
 
 	try {
 		fs.mkdirsSync(DB_PATH);
-	} catch (e) { logger(`MONGOD Error creating db at ${DB_PATH}`); logger(e); }
+	} catch (e) { 
+		error(`MONGOD Error creating db at ${DB_PATH}`); 
+		logger(e); 
+	}
 
 	const args = ['--dbpath', DB_PATH];
 
@@ -52,4 +56,6 @@ module.exports = function (options, callback) {
 		logger(`MONGOD STDERR: ${d}`);
 		callback(d);
 	});
+
+	return mongod;
 }
