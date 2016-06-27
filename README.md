@@ -1,4 +1,8 @@
 ### mongo-standalone
+[![npm](https://img.shields.io/npm/l/mongo-standalone.svg?maxAge=2592000)](https://www.npmjs.com/package/mongo-standalone)
+[![npm](https://img.shields.io/npm/v/mongo-standalone.svg?maxAge=2592000)](https://www.npmjs.com/package/mongo-standalone)
+[![npm](https://img.shields.io/npm/dm/mongo-standalone.svg?maxAge=2592000)](https://www.npmjs.com/package/mongo-standalone)
+[![npm](https://img.shields.io/npm/dt/mongo-standalone.svg?maxAge=2592000)](https://www.npmjs.com/package/mongo-standalone)
 
 This is a javascript method that allows for control of the command-line 
 based `mongod` instance from a node.js app. MongoDB must be downloaded 
