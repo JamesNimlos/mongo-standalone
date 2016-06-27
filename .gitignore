@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.sublime-workspace
 npm-debug.log*
 
 # Runtime data
